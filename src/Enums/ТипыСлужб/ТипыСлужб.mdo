@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6731ebe3-4576-49ae-841b-6feec80907b4">
+  <producedTypes>
+    <refType typeId="4f235b03-905d-4fe0-82b5-6027da7177a3" valueTypeId="0f210e51-fee0-468f-acac-87c753651ce5"/>
+    <listType typeId="c38af433-fa4d-4158-b4c4-4d0240c6cbc0" valueTypeId="f076460a-744d-4f97-86e9-7eadd641fd72"/>
+    <managerType typeId="67eaab51-3775-4cd1-90e4-c02feb7bd136" valueTypeId="656464b3-69b5-4097-a79a-a2b525565d60"/>
+  </producedTypes>
+  <name>ТипыСлужб</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы служб</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cb475dc1-6869-43de-82f6-5bff10f0e0ce">
+    <name>ragent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агент cервера '1С:Предприятия'</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="614086f0-115d-4b58-9de8-1f11ade707c2">
+    <name>ras</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер администрирования RAS</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d9bc8bf6-c0f8-49e1-92ac-aec40e4e6ed8">
+    <name>dbgs</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер отладки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16949e1c-8511-4242-a2fd-4b4b43aedda7">
+    <name>crserver</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер хранилищ конфигураций</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92ce9507-6d60-4d55-9de7-b355428283d1">
+  <producedTypes>
+    <refType typeId="5e56efda-067f-445f-8431-a9d08c573d8a" valueTypeId="a81d5e3b-4061-4ba1-a7eb-d01b7a4e55cd"/>
+    <listType typeId="10dcf0b2-7169-4b83-9eb9-12465a33ebba" valueTypeId="cb6520e0-3666-4e57-9244-ca069bb7bbfd"/>
+    <managerType typeId="e1832b21-5982-4247-91a8-5539250dfd54" valueTypeId="f7cd6795-d5e8-40c4-a25e-3b5322d6f7b8"/>
+  </producedTypes>
+  <name>CостоянияБазыДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cостояния базы данных</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9f89cba7-8562-4e93-a912-17d11b17ac4c">
+    <name>ONLINE</name>
+    <synonym>
+      <key>ru</key>
+      <value>ONLINE</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02dad1f9-efd9-44de-a3bd-ae190c1d250c">
+    <name>RESTORING</name>
+    <synonym>
+      <key>ru</key>
+      <value>RESTORING</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="143bfbea-3cec-4e32-aef7-b89e2d537a28">
+    <name>RECOVERING</name>
+    <synonym>
+      <key>ru</key>
+      <value>RECOVERING</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="448dda72-6f03-454a-b0b4-b6fb9999a79e">
+    <name>RECOVERY_PENDING</name>
+    <synonym>
+      <key>ru</key>
+      <value>RECOVERY PENDING</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b88b2957-e706-4abf-8e2c-5c1336391bde">
+    <name>SUSPECT</name>
+    <synonym>
+      <key>ru</key>
+      <value>SUSPECT</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95ab175d-08a3-4fa5-8143-6439538ef91d">
+    <name>EMERGENCY</name>
+    <synonym>
+      <key>ru</key>
+      <value>EMERGENCY</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79f0397a-c423-4f6c-be04-344252295add">
+    <name>OFFLINE</name>
+    <synonym>
+      <key>ru</key>
+      <value>OFFLINE</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76bb0094-9fc0-4002-a68b-d5fd9ce8fc7d">
+    <name>COPYING</name>
+    <synonym>
+      <key>ru</key>
+      <value>COPYING</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d1d7717-14a4-42c2-bf9b-1689e0f31f6f">
+    <name>OFFLINE_SECONDARY</name>
+    <synonym>
+      <key>ru</key>
+      <value>OFFLINE SECONDARY</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21d82c10-fb1b-45d0-8ea1-f6ac05da02dc">
+  <producedTypes>
+    <refType typeId="fe94c640-fa2f-4b55-bd8e-fe43d84263ee" valueTypeId="1fd38e02-c557-43cc-b6b9-65e253c2e547"/>
+    <listType typeId="848e20cf-3cff-412f-9e31-3ba6bbc6c2c5" valueTypeId="77e16f4b-30d6-4b93-a251-e6d9b72826d4"/>
+    <managerType typeId="183d36b5-f1f9-43b4-8f20-f5f4ee624f42" valueTypeId="802771cb-f4ec-4d7d-8ad7-17b23108c3b6"/>
+  </producedTypes>
+  <name>ВидыЗащищенногоСоединения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды защищенного соединения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eb0d7799-d321-421a-98ff-e33633466f2d">
+    <name>Выключено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выключено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34db1a2c-594e-4873-b560-59a9c316e504">
+    <name>ТолькоСоединение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только соединение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="949b9dbf-4fb4-4feb-848d-e4ed4c8eb34c">
+    <name>Постоянно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постоянно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dec8b9f1-ee83-49c4-8655-23a874dea428">
+  <producedTypes>
+    <refType typeId="a11c5b5d-8b2d-4c3c-bec7-3df978318dc0" valueTypeId="f0157315-bdb3-4d50-a743-3a7da2101c60"/>
+    <listType typeId="78b4415d-cb43-4e6e-8b62-f315c8867675" valueTypeId="a4d3fad9-7ba3-419c-8772-a0870ad40c43"/>
+    <managerType typeId="bcc88a8f-893d-4f83-9e92-1c843b4055de" valueTypeId="80f5a6fb-eb2d-4e48-8a20-7f9561be4ff6"/>
+  </producedTypes>
+  <name>МоделиВосстановленияБазыДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модели восстановления базы данных</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bd303812-998a-419d-967c-509bf1b0f633">
+    <name>FULL</name>
+    <synonym>
+      <key>ru</key>
+      <value>FULL</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29395b84-d61e-4cd6-9fdf-c10fb45db482">
+    <name>BULK_LOGGED</name>
+    <synonym>
+      <key>ru</key>
+      <value>BULK_LOGGED</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b02a720c-b6b3-453a-bb0d-cc6b2b9803f6">
+    <name>SIMPLE</name>
+    <synonym>
+      <key>ru</key>
+      <value>SIMPLE</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

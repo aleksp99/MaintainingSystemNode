@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85e72758-3775-449a-8fb3-2428a931817e">
+  <producedTypes>
+    <refType typeId="9173b63a-6346-4367-ba6a-feb302dbc8a8" valueTypeId="d5c362c7-ad5f-479c-9296-90a79095105b"/>
+    <listType typeId="ff8d6577-47dc-49e9-9f38-c1f0788dc37f" valueTypeId="0917da07-cade-4364-acdb-7f7b731621dc"/>
+    <managerType typeId="862c51ec-f3be-46dd-8e64-e6e4c65758f2" valueTypeId="be7421d8-2217-4ab6-93af-50d68eed0928"/>
+  </producedTypes>
+  <name>ТипыРезервнойКопииSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы резервной копии SQL</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3e82cfe9-4ffc-40bd-ad02-420d86bb5dcd">
+    <name>ФайлДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88495019-f529-42bf-8814-bd0f709e1906">
+    <name>Журнал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db0bd3a4-bee7-417f-ab84-b47c07a1ca1d">
+    <name>ПолнотекстовыйКаталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полнотекстовый каталог</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

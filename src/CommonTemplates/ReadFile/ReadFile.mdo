@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea9de6d9-eec7-44ae-9136-d3d19b26043f">
+  <name>ReadFile</name>
+  <synonym>
+    <key>ru</key>
+    <value>Read file</value>
+  </synonym>
+  <comment>github.com/aleksp99/ReadFileOneC</comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

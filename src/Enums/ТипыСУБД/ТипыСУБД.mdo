@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5774219c-84d5-4b70-aa52-a287757849f5">
+  <producedTypes>
+    <refType typeId="d8919ebf-4dc9-444a-83ac-dbee306dfe1a" valueTypeId="626e5d40-0fa2-42a9-9d95-2ee33a3d72a1"/>
+    <listType typeId="c5b1f316-d8b4-4289-a0f1-d2321e270ad9" valueTypeId="f03e3f68-67df-4fbd-a1dd-0f4d4c792baa"/>
+    <managerType typeId="06fe5053-bff2-4a7b-9791-986f5a3eb433" valueTypeId="b1ccfead-2594-423e-af88-566b2bf7b0e4"/>
+  </producedTypes>
+  <name>ТипыСУБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы СУБД</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d1887901-ad96-4510-a1cb-e013b60d6274">
+    <name>MSSQLServer</name>
+    <synonym>
+      <key>ru</key>
+      <value>MS SQL Server</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0db87d3e-03fc-432b-9b49-45c4e546fbc0">
+    <name>PostgreSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>PostgreSQL</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f47b093-67c7-4484-90a6-9d35da8be38c">
+    <name>IBM_DB2</name>
+    <synonym>
+      <key>ru</key>
+      <value>IBM DB2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0f37f636-3487-4b4b-b2cd-f0dd188eb8cf">
+    <name>OracleDatabase</name>
+    <synonym>
+      <key>ru</key>
+      <value>Oracle Database</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

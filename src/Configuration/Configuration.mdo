@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad5aa609-86c6-46bb-8f2b-ff7b8fa36c1b">
+  <name>СистемаСопровожденияУзел</name>
+  <synonym>
+    <key>ru</key>
+    <value>Система сопровождения - узел</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c3660baf-fc54-4ded-a891-f73a901fff9e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c9c29836-d716-4522-bb82-07d2d402804c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="79d4f339-4815-4fa4-9528-c75a531852ee"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0bab0247-800e-4d6e-8c6b-7cf53f78b49b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="deef2eb5-f26a-4695-aaa9-c48548585744"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="5c5107ce-5c55-4ff6-9278-c340b7c2a080"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="03fc0f3c-62bd-4da0-bdb7-f3289d600998"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>АО &quot;Мособлэнерго&quot;</vendor>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Copyright © 2021 - 2021, АО &quot;Мособлэнерго&quot;. Все права защищены.</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
+  <languages uuid="91abd8d1-5222-4c31-b3cc-cebd68db638c">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.ПолныеПрава</roles>
+  <commonTemplates>CommonTemplate.ReadFile</commonTemplates>
+  <commonModules>CommonModule.Инфраструктура</commonModules>
+  <commonModules>CommonModule.ИнфраструктураКлиентСервер</commonModules>
+  <commonModules>CommonModule.ИнфраструктураУзлаВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.СистемаСопровожденияКлиентСервер</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыПовтИсп</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.Узел</commonModules>
+  <enums>Enum.CостоянияБазыДанных</enums>
+  <enums>Enum.ВидыЗащищенногоСоединения</enums>
+  <enums>Enum.Действия</enums>
+  <enums>Enum.МоделиВосстановленияБазыДанных</enums>
+  <enums>Enum.ОбъектыТребования</enums>
+  <enums>Enum.ТипыОтбора</enums>
+  <enums>Enum.ТипыРезервнойКопииSQL</enums>
+  <enums>Enum.ТипыСлужб</enums>
+  <enums>Enum.ТипыСУБД</enums>
+  <enums>Enum.ТипыТребований</enums>
+</mdclass:Configuration>

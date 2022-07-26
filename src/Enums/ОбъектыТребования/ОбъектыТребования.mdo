@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd23e6ba-7a8f-47dc-8f6c-48d5887e5cc6">
+  <producedTypes>
+    <refType typeId="27c06eb2-f5b6-45ae-8443-99095802293a" valueTypeId="a9dcc234-d89a-4139-a20a-b85aa4e58d2a"/>
+    <listType typeId="f9d66640-38d7-4e74-be2c-0d447ca48caf" valueTypeId="1a277df6-e2d9-42bc-82ae-cb0af35a6b07"/>
+    <managerType typeId="359e20d2-a756-4dfe-b176-2470c8726ad9" valueTypeId="c3f77c6b-1ffa-4ed1-8640-3edf4dea8622"/>
+  </producedTypes>
+  <name>ОбъектыТребования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты требования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d2f68cd8-665d-4115-995d-4df452d971e0">
+    <name>ALL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Любой объект требования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="767a80f1-4e27-494b-92ea-84a9777a7e9d">
+    <name>Connection</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиентское соединение с ИБ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9ba23f53-df62-4ab5-b390-a17b69326939">
+    <name>ClientTestingService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис тестирования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5d9b72f-e07f-4882-a71c-f43408473164">
+    <name>SessionDataService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис сеансовых данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8d9499c-1fe2-4b66-9285-77f73f441ee9">
+    <name>IntegrationDataService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис интеграционных данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4a40adf3-5d28-4e25-9788-54827b4dee32">
+    <name>DataEditLockService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис блокировки объектов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd82704a-a3a8-4eac-a825-cd257bc26e60">
+    <name>JobService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис заданий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f73d9a1-1d7c-4b74-a20b-f06c965bf9bb">
+    <name>ExternalDataSourceXMLAService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис работы с внешними источниками данных через XMLA</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="44001516-b29e-4ddd-be9b-96f90b79d4ac">
+    <name>DbCopiesService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис копий базы данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb98f971-d38d-4cd5-b028-a21ffb4a7c64">
+    <name>ExternalSessionManagerService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис внешнего управления сеансами</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="59837c05-51bd-4220-9116-80170c3be0fa">
+    <name>EventLogService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис журналов регистрации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb0a6efd-58dd-489a-8153-0bd40490e11b">
+    <name>TimestampService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис времени</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1d90a46-87ec-4720-8f2d-752da820177f">
+    <name>AuxiliaryService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис вспомогательных функций кластера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99f722d4-4ca6-45d4-80dd-d190fde1259c">
+    <name>ExternalDataSourceODBCService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис работы с внешними источниками данных через ODBC</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dda69fb1-7186-448e-a6af-3ec95b8943b8">
+    <name>OpenID2ProviderContextService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис провайдера OpenID2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26fe384a-8edc-46d7-8ce4-985bee376209">
+    <name>SessionReuseService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис повторного использования сеансов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5a774e7-2826-4c47-97cc-c8c51903b85d">
+    <name>TransactionLockService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис транзакционных блокировок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="52c21d41-2113-4738-b5ea-156ef9924900">
+    <name>LicenseService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис лицензирования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e41e1509-dd5d-466b-9fe0-71ea716723eb">
+    <name>FulltextSearchService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис полнотекстового поиска</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb977fe8-60d6-4605-b6db-687c03fc85b7">
+    <name>SettingsService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис пользовательских настроек</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02391cc6-f55b-42ab-b373-a36573f16679">
+    <name>NumerationService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис нумерации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d3a66b0-bfb3-415e-be32-f665786ef364">
+    <name>DataBaseConfigurationUpdateService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис обновления конфигурации базы данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fce054ab-caad-4f79-87b8-e04b58694189">
+    <name>DataAcceleratorService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис Дата акселератора</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="103874c3-1bce-41b2-9266-b7e8cd99dc67">
+    <name>DbCopiesTimeService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис времени копий базы данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e0fb2d5-d1ea-4c54-ab3d-043cdbc5b15f">
+    <name>DatabaseTableNumberingService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис номеров имен таблиц и полей базы данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="737115f9-6d77-491a-a96f-b338195b7833">
+    <name>CounterService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис мониторинга счетчиков потребления ресурсов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

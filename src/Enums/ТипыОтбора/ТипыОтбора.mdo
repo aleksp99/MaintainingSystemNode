@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a635d245-6fb6-4253-bf36-cd3d9218dc61">
+  <producedTypes>
+    <refType typeId="e3360947-dd37-4a83-a05e-bf7b15585cc8" valueTypeId="1013be0c-359e-4f17-91f5-6ad59fb021d0"/>
+    <listType typeId="7aed16d3-7f3d-4c77-9b30-1ecd2ae0b698" valueTypeId="c714516c-04dd-4320-8547-591be3b48575"/>
+    <managerType typeId="98b7a464-145e-46f7-b7ff-11c8a7db2d3f" valueTypeId="bf68b451-4396-4a25-8857-92bfdd6037ea"/>
+  </producedTypes>
+  <name>ТипыОтбора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы отбора</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c66c9e9c-383f-4031-8764-f61b650329f3">
+    <name>Все</name>
+    <synonym>
+      <key>ru</key>
+      <value>Все</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4700663d-a164-49aa-9ba2-ef971d009785">
+    <name>ВсеВыбранные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Все выбранные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2cef7a4-c974-42a3-becb-10fba2f6879e">
+    <name>ВсеКромеВыбранных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Все кроме выбранных</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
